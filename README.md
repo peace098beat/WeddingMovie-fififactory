@@ -13,7 +13,7 @@ git push -u origin master
 
 ## Bootstrapテンプレート(メモ用)
 - Brave: 有料(4$)だがデザインが柔らかくてHPのイメージに良さそう。
--- http://wrapbootstrap.com/preview/WB0C06H5D
+	-- http://wrapbootstrap.com/preview/WB0C06H5D
 
 ## 日本語Webフォント
 - Webフォントファン
