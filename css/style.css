@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "myFont";
+  src: url("./fonts/FLOPFONT/flopdesign-kana.eot?") format('eot'),
+       url("./fonts/FLOPFONT/flopdesign-kana.woff") format('woff'),
+       url("./fonts/FLOPFONT/flopdesign-kana.otf")  format('opentype');
+}
+body {
+  background-color: #F2F1EF;
+  /*font-family: "myFont";*/
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'myFont','Corben', Georgia, Times, serif;
+}
+p, div {
+     font-family: 'myFont','Nobile', Helvetica, Arial, sans-serif;
+}
