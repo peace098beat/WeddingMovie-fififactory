@@ -10,14 +10,17 @@
 }*/
 </style>
 
-<hr color="#000" width="300" size="10" />
+<hr style="border-top:1px solid #000; size:10" >
 <hr>
-<hr class="soften"></hr>
 
 <div class="wm-footer">
-	<h1>Footer</h1>
-	<p>私達について</p>
 	<div class="container-fluid">
+	<p>連絡先 mail@post.fififactory.com</p>
+	<p>住所 神奈川県川崎市幸区小倉*-*-**</p>
+	<p>facebook</p>
+
+
+	<p>私達について</p>
 	<div class="col-md-6">
 		<div class="row">
 			<div class="col-sm-6 col-md-4">

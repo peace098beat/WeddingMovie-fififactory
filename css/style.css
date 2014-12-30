@@ -1,21 +1,34 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-  font-family: "myFont";
+/*@font-face {
+  font-family: "flopfont";
   src: url("./fonts/FLOPFONT/flopdesign-kana.eot?") format('eot'),
        url("./fonts/FLOPFONT/flopdesign-kana.woff") format('woff'),
        url("./fonts/FLOPFONT/flopdesign-kana.otf")  format('opentype');
-}
-body {
-  background-color: #F2F1EF;
-  /*font-family: "myFont";*/
-  
+}*/
+
+@font-face {
+	font-family: 'JapanSans80';
+		src: url('./fonts/JapanSansFont/web/JapanSans80.eot');
+		src: url('./fonts/JapanSansFont/web/JapanSans80.eot?#iefix') format('embedded-opentype'),
+			 url('./fonts/JapanSansFont/web/JapanSans80.woff') format('woff'),
+			 url('./fonts/JapanSansFont/web/JapanSans80.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'myFont','Corben', Georgia, Times, serif;
+    font-family: 'JapanSans80','flopfont','Corben', Georgia, Times, serif;
 }
 p, div {
-     font-family: 'myFont','Nobile', Helvetica, Arial, sans-serif;
+     font-family: 'JapanSans80','flopfont','Nobile', Helvetica, Arial, sans-serif;
 }
+
+
+
+body {
+  /*background-color: #F2F1EF;*/
+}
+

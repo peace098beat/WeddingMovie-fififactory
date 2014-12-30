@@ -18,3 +18,9 @@ git push -u origin master
 ## 日本語Webフォント
 - Webフォントファン
 -- http://webfontfan.com/freefont-webfont/
+
+- JapanSans  
+ - ダウンロード
+  - http://webfontfan.com/japansans/?p=20
+ - 設定方法
+  - http://webfontfan.com/japansans/?p=6

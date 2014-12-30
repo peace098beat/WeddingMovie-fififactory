@@ -44,7 +44,7 @@
     <link href="<?php echo $spath_bootflat ?>/css/bootflat.min.css" rel="stylesheet">
 
   <!-- CSSDEBUG -->
-    <!-- <link href="./css/css-debug.css" rel="stylesheet"> -->
+    <link href="./css/css-debug.css" rel="stylesheet">
   
   <!-- my style css -->
     <link href="./css/style.css" rel="stylesheet">

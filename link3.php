@@ -1,163 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<?php require("head.php") ?>
+
 <body>
 	<div class="container">
 		<?php require("header.php") ?>
 
 		<!-- START main contents -->
-		<div class="container-fluid">
-			<div class="calendar">
-				<div class="years clearfix">
-					<div class="unit prev"> <em></em>
-					</div>
-					<div class="monyear">MAY 2014</div>
-					<div class="unit next"> <em></em>
-					</div>
-				</div>
-				<div class="days">
-					<div class="clearfix">
-						<div class="unit">SU</div>
-						<div class="unit">MO</div>
-						<div class="unit">TU</div>
-						<div class="unit">WE</div>
-						<div class="unit">TH</div>
-						<div class="unit">FR</div>
-						<div class="unit">SA</div>
-					</div>
-					<div class="clearfix">
-						<div class="unit older"> <b>27</b>
-						</div>
-						<div class="unit older"> <b>28</b>
-						</div>
-						<div class="unit older">
-							<b>29</b>
-						</div>
-						<div class="unit older">
-							<b>30</b>
-						</div>
-						<div class="unit">
-							<b>1</b>
-						</div>
-						<div class="unit">
-							<b>2</b>
-						</div>
-						<div class="unit">
-							<b>3</b>
-						</div>
-						<div class="unit">
-							<b>4</b>
-						</div>
-						<div class="unit">
-							<b>5</b>
-						</div>
-						<div class="unit">
-							<b>6</b>
-						</div>
-						<div class="unit">
-							<b>7</b>
-						</div>
-						<div class="unit">
-							<b>8</b>
-						</div>
-						<div class="unit">
-							<b>9</b>
-						</div>
-						<div class="unit">
-							<b>10</b>
-						</div>
-						<div class="unit">
-							<b>11</b>
-						</div>
-						<div class="unit">
-							<b>12</b>
-						</div>
-						<div class="unit">
-							<b>13</b>
-						</div>
-						<div class="unit active">
-							<b>14</b>
-						</div>
-						<div class="unit">
-							<b>15</b>
-						</div>
-						<div class="unit">
-							<b>16</b>
-						</div>
-						<div class="unit">
-							<b>17</b>
-						</div>
-						<div class="unit">
-							<b>18</b>
-						</div>
-						<div class="unit">
-							<b>19</b>
-						</div>
-						<div class="unit">
-							<b>20</b>
-						</div>
-						<div class="unit">
-							<b>21</b>
-						</div>
-						<div class="unit">
-							<b>22</b>
-						</div>
-						<div class="unit">
-							<b>23</b>
-						</div>
-						<div class="unit">
-							<b>24</b>
-						</div>
-						<div class="unit">
-							<b>25</b>
-						</div>
-						<div class="unit">
-							<b>26</b>
-						</div>
-						<div class="unit">
-							<b>27</b>
-						</div>
-						<div class="unit">
-							<b>28</b>
-						</div>
-						<div class="unit">
-							<b>29</b>
-						</div>
-						<div class="unit">
-							<b>30</b>
-						</div>
-						<div class="unit">
-							<b>31</b>
-						</div>
-						<div class="unit older">
-							<b>1</b>
-						</div>
-						<div class="unit older">
-							<b>2</b>
-						</div>
-						<div class="unit older">
-							<b>3</b>
-						</div>
-						<div class="unit older">
-							<b>4</b>
-						</div>
-						<div class="unit older">
-							<b>5</b>
-						</div>
-						<div class="unit older">
-							<b>6</b>
-						</div>
-						<div class="unit older">
-							<b>7</b>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
+		<h2>制作の流れ</h2>
+		<p>スライドショーＤＶＤを作るための手順</p>
+
+		<h3>1.ご注文フォームより仮注文</h3>
+		<p>必要事項を記入の上ご注文お願いします。</p>
+
+		<h3>2.写真、音楽データの発送</h3>
+		<p>お手持ちの写真、BGMにしたい音楽データを弊社に発送してください。<br>
+		尚、防水対策の為ビニールなど（ジップロックが最適）にいれてください。</p>
+
+		<!-- <p>発送先:<br>
+		〒９０１－１２０４<br>
+		沖縄県南城市大里字稲嶺２２６７番地１<br>
+		WeddingMovie<br>
+		野原貴幸<br> -->
+		<p>発送先<br>
+		〒212-0054<br>
+		神奈川県川崎市幸区小倉3-6-37 エクセル新川崎2 208<br>
+		WeddingMovie<br>
+		野原友幸<br>
+		</p>
+		</p>
+		<p>★発送には郵便局の"レターパック３５０"をオススメしております。<br>
+		速達扱いで追跡番号もついていて、厚さ３ｃｍまで送れますので便利です。<br>
+		送料は３５０円です。(スライドショーの写真を弊社に発送する送料はお客様ご負担となります。)<br>
+		</p>
+
+		<h3>3.完成ＤＶＤの発送、代金引換でお支払</h3>
+		<p>ＤＶＤ受け取り時に、郵便局（配送）の方に代金引換で制作代金をお支払いください。</p>
+
+
 
 		<!-- END main contents -->
 
-		<?php require("footer.php") ?></div>
-	<?php require("bootstrap-plugins.php"); ?></body>
+		<?php require("footer.php") ?>
+	</div>
+	<?php require("bootstrap-plugins.php"); ?>
+	</body>
 </html>
