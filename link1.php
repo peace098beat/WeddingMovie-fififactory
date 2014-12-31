@@ -10,10 +10,10 @@
 		<!-- START main contents -->
 		<h2>Sample Movie</h2>
 
-		<h3>サンプル動画</h3>
 			<!-- <img src="https://unsplash.it/540/360/?random"> -->
 
-			<iframe width="480px" height="320px" src="//www.youtube.com/embed/8yHuFfcvg-c" frameborder="0" allowfullscreen></iframe>
+			<!-- <iframe width="480px" height="320px" src="//www.youtube.com/embed/8yHuFfcvg-c" frameborder="0" allowfullscreen></iframe> -->
+			<iframe width="560" height="315" src="//www.youtube.com/embed/8yHuFfcvg-c?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			<!-- /youtubeリンク-->
 
 		<h3>準備していただくもの</h3>
@@ -70,60 +70,52 @@
 			</div>
 		</div>
 
-		<h3>ストーリー</h3>
-
-		<img src="./img/sample_friend_b_1.png" max-width="80%">
+		<!-- <h3>ストーリー</h3> -->
+		<!-- <img src="./img/sample_friend_b_1.png" max-width="80%"> -->
 
 		<h3>ストーリー</h3>
 
 		<div id="story">
-				<ul class="media-list">
-					<li class="media">
-						<a class="media-left" href="#">
-							<img src="./img/sample-story1.jpg" alt="..."></a>
-						<div class="media-body">
-							<h4 class="media-heading">サブタイトル</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-						</div>
-					</li>
-				</ul>
+			<?php 
+				$elem = array();
+				$elem[0][0] = "./img/sample-story1.jpg";
+				$elem[0][1] = "Opening";
+				$elem[0][2] = "(5秒) 「Happy Wedding」と落ち着きのあるアニメーションで始まります";
 
-				<ul class="media-list">
-					<li class="media">
-						<a class="media-left" href="#">
-							<img src="./img/sample-story1.jpg" alt="..."></a>
-						<div class="media-body">
-							<h4 class="media-heading">サブタイトル</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<div class="alert alert-dismissable alert-success">
-								<button type="button" class="close" data-dismiss="alert">×</button>
-								<strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+				$elem[1][0] = "./img/sample-story2.jpg";
+				$elem[1][1] = "Title Call";
+				$elem[1][2] = "(5秒) 結婚式の日付や、お名前を入れることができます";
+
+				$elem[2][0] = "./img/sample-story3.jpg";
+				$elem[2][1] = "Photo Slide Show";
+				$elem[2][2] = "(3~5分) コメントをつけることができます。※コメントは30文字まで";
+
+
+				$elem[3][0] = "./img/sample-story4.jpg";
+				$elem[3][1] = "";
+				$elem[3][2] = "";
+
+				$elem[4][0] = "./img/sample-story6.jpg";
+				$elem[4][1] = "Last Message";
+				$elem[4][2] = "「○○結婚おめでとう♥︎」のようなメッセージをいれることができます";				
+
+				for ($i=0; $i < 5; $i++) { 
+					$template = '
+					<ul class="media-list">
+						<li class="media">
+							<a class="media-left" href="#">
+								<img src="%s" alt="...">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">%s</h4>
+								<p>%s</p>
 							</div>
-						</div>
-					</li>
-				</ul>
-
-				<ul class="media-list">
-					<li class="media">
-						<a class="media-left" href="#">
-							<img src="./img/sample-story1.jpg" alt="..."></a>
-						<div class="media-body">
-							<h4 class="media-heading">サブタイトル</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-							<div class="alert alert-dismissable alert-info">
-							  <button type="button" class="close" data-dismiss="alert">×</button>
-							  <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
-							</div>
-						</div>
-					</li>
-				</ul>
-
+						</li>
+					</ul>';
+					// printf($template, "./img/sample-story1.jpg", "bbb", "ccc");
+					printf($template, $elem[$i][0], $elem[$i][1], $elem[$i][2]);
+				}
+			?>
 		</div><!-- /story -->
 		<!-- END main contents -->
 
