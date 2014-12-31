@@ -1,3 +1,18 @@
+<?php
+$actor = array();
+$actor[0][0] = "./img/actor-m1.jpg";
+$actor[0][1] = "FiFi";
+$actor[0][2] = "グラフィック担当";
+
+$actor[1][0] = "./img/actor-m2.jpg";
+$actor[1][1] = "YU";
+$actor[1][2] = "問い合わせ担当";
+
+$actor[2][0] = "./img/actor-m3.jpg";
+$actor[2][1] = "TAKA";
+$actor[2][2] = "企画担当";
+?>
+
 <style type="text/css">
 /*.wm-footer{
 	padding-top: 40px;
@@ -19,67 +34,31 @@
 	<p>住所 神奈川県川崎市幸区小倉*-*-**</p>
 	<p>facebook</p>
 
-
 	<p>私達について</p>
-	<div class="col-md-6">
+
+	<h5>私達について</h5>
+	<!-- <div class="col-md-6"> -->
 		<div class="row">
-			<div class="col-sm-6 col-md-4">
+			<?php for ($i=0; $i < 3; $i++) { 
+				$template = '
+				<div class="col-sm-4 col-md-4">
 				<div class="thumbnail">
-					<img src="https://unsplash.it/200/?random" alt="...">
-					<div class="caption">
-						<h3>FiFi</h3>
-						<p>グラフィックデザイン担当</p>
-						<p>
-							<a href="#" class="btn btn-primary" role="button">Button</a>
-							
-						</p>
-					</div>
+				<img src="%s" alt="...">
+				<div class="caption">
+				<h3>%s</h3>
+				<p class="small">%s</p>
+				<p>
+				<a href="#" class="btn btn-primary" role="button">Button</a>
+				</p>
 				</div>
-			</div>
-			<!-- col-sm-6 col-md-4 -->
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img class="img-rounded" src="https://unsplash.it/200/" alt="...">
-					<div class="caption">
-						<h3>YU</h3>
-						<p>連絡担当</p>
-						<p>
-							<a href="#" class="btn btn-primary" role="button">Button</a>
-							
-						</p>
-					</div>
 				</div>
-			</div>
-			<!-- col-sm-6 col-md-4 -->
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img class="img-rounded" src="https://unsplash.it/g/200" alt="...">
-					<div class="caption">
-						<h3>TAKA</h3>
-						<p>経理担当</p>
-						<p>
-							<a href="#" class="btn btn-primary" role="button">Button</a>
-							
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- col-sm-6 col-md-4 -->
-		</div>
-		<!-- /row -->
-	</div>
-	</div>
+				</div>';
+				printf($template, $actor[$i][0], $actor[$i][1], $actor[$i][2]);
+			}?>
+		</div><!-- /row -->
+	<!-- </div> -->
+	<!-- col-md-6 -->
+</div> <!-- container-fluid -->
+</div> <!-- wm-footer -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
