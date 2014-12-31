@@ -31,3 +31,9 @@ p, div {
 body {
   /*background-color: #F2F1EF;*/
 }
+
+#story img{
+	width: 100%;
+	min-width: 300px;
+	max-width: 500px;
+}
