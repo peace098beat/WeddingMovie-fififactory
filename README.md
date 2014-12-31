@@ -24,3 +24,8 @@ git push -u origin master
   - http://webfontfan.com/japansans/?p=20
  - 設定方法
   - http://webfontfan.com/japansans/?p=6
+
+## 作業記録
+2014.12.30 トップページに文章を挿入
+2014.12.30 価格, 製作ページに文章を挿入
+2014.12.30 フォントサイズの変更
