@@ -4,14 +4,19 @@
 <body>
 	<div class="container">
 		<?php require("header.php") ?>
+	</div>
+	<div class="container">
 
 		<!-- START main contents -->
-		<h1>Sample Movie</h1>
+		<h2>Sample Movie</h2>
 
-		<h2>サンプル動画</h2>
-			<img src="https://unsplash.it/540/360/?random">
+		<h3>サンプル動画</h3>
+			<!-- <img src="https://unsplash.it/540/360/?random"> -->
 
-		<h2>準備していただくもの</h2>
+			<iframe width="480px" height="320px" src="//www.youtube.com/embed/8yHuFfcvg-c" frameborder="0" allowfullscreen></iframe>
+			<!-- /youtubeリンク-->
+
+		<h3>準備していただくもの</h3>
 
 		<div class="row">
 			<div class="col-sm-6 col-md-3">
@@ -63,14 +68,19 @@
 					</li>
 				</ul>
 			</div>
-
 		</div>
-		<h2>ストーリー</h2>
-		<div class="story">
+
+		<h3>ストーリー</h3>
+
+		<img src="./img/sample_friend_b_1.png" max-width="80%">
+
+		<h3>ストーリー</h3>
+
+		<div id="story">
 				<ul class="media-list">
 					<li class="media">
 						<a class="media-left" href="#">
-							<img src="https://unsplash.it/380/240/?random" alt="..."></a>
+							<img src="./img/sample-story1.jpg" alt="..."></a>
 						<div class="media-body">
 							<h4 class="media-heading">サブタイトル</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -83,7 +93,7 @@
 				<ul class="media-list">
 					<li class="media">
 						<a class="media-left" href="#">
-							<img src="https://unsplash.it/380/242/?random" alt="..."></a>
+							<img src="./img/sample-story1.jpg" alt="..."></a>
 						<div class="media-body">
 							<h4 class="media-heading">サブタイトル</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -100,7 +110,7 @@
 				<ul class="media-list">
 					<li class="media">
 						<a class="media-left" href="#">
-							<img src="https://unsplash.it/380/241/?random" alt="..."></a>
+							<img src="./img/sample-story1.jpg" alt="..."></a>
 						<div class="media-body">
 							<h4 class="media-heading">サブタイトル</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -117,8 +127,10 @@
 		</div><!-- /story -->
 		<!-- END main contents -->
 
+	</div>
+	<div class="container">
 		<?php require("footer.php") ?>
-		</div>
+	</div>
 	<?php require("bootstrap-plugins.php"); ?>
 	</body>
 </html>
